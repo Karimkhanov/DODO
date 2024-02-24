@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="40dp"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/salesRes"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        tools:srcCompat="@drawable/pizza_background"
+
+        />
+
+    <TextView
+        android:id="@+id/saleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Banner Title" />
+
+    <TextView
+        android:id="@+id/saleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="14sp"
+        tools:text="Banner Description" />
+
+    <Button
+        android:id="@+id/sale_pizza_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:backgroundTint="@color/or"
+        android:textColor="@color/oran"
+        android:textSize="12sp"
+        tools:text="от 3 900 ₸" />
+
+</LinearLayout>

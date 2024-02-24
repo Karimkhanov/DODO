@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DODO</string>
+    <string name="name">Name</string>
+    <string name="num">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="username">Name</string>
+    <string name="phone_num">Phone number</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="login">Email</string>
+    <string name="reg">Register</string>
+    <string name="todo">TODO</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+</resources>

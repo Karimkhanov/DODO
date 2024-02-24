@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pRes"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+         />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:layout_marginTop="180dp">
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="170dp"-->
+<!--            android:src="@drawable/Pizzaicon"-->
+<!--            android:contentDescription="@string/todo" />-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="@string/username"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/round"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/username_input"
+            android:autofillHints=""
+
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/phone_num"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/round"
+            android:padding="18dp"
+            android:inputType="phone"
+            android:id="@+id/sur_input"
+            android:autofillHints="no" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/date_of_birth"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/round"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:padding="18dp"
+            android:inputType="datetime"
+            android:id="@+id/birth_input"
+            android:autofillHints="no" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/login"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/round"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/log_input"
+            android:importantForAutofill="no" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reg"
+            android:backgroundTint="@color/or"
+            android:textColor="@color/black"
+            android:padding="18dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:id="@+id/login_button"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
